@@ -31,7 +31,8 @@
     <!-- css/users -->
 </head>
 <body>
-    @include('layouts\user.menu')
+    @include('layouts\user.sidebar')
+    @include('layouts\user.navbar')
     <div>
         @yield('content')
     </div>

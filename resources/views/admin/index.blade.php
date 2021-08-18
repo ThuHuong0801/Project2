@@ -1,4 +1,7 @@
 @extends('layouts\admin.admin')
+
+@section('title', 'Dashboard')
+
 @section('content')
 <div class="card-header card-header-icon" data-background-color="rose" >
     <i class="material-icons">groups</i>
